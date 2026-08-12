@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Aadu ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="passwordScreen" class="password-screen">
+    <div class="password-card">
+      <div class="tiny-heart">♡</div>
+      <p class="eyebrow">A little secret made for you</p>
+      <h1>For Aadu</h1>
+      <p>There is a little birthday world waiting inside. ✨</p>
+      <input id="passwordInput" type="password" placeholder="Enter the secret password">
+      <button onclick="unlock()">Open My Surprise ♡</button>
+      <p id="passwordError" class="error"></p>
+      <small>Hint: your nickname + birthday day</small>
+    </div>
+  </div>
+
+  <main id="site" class="hidden">
+    <section class="hero">
+      <div class="sparkles"></div>
+      <div class="hero-card">
+        <p class="eyebrow">15 September ♡</p>
+        <h1>Happy Birthday,<br><span>Aadu</span></h1>
+        <p class="hero-text">A tiny little corner of the internet, made with a very big heart — just for you.</p>
+        <button onclick="scrollToSection('letter')">Open Your Letter ↓</button>
+      </div>
+      <div class="scroll-hint">keep scrolling ♡</div>
+    </section>
+
+    <section class="intro section">
+      <p class="eyebrow">Dear Aadu</p>
+      <h2>Some people enter your life randomly...</h2>
+      <p class="wide-text">
+        We met randomly on Instagram. Neither of us knew that one simple interaction
+        would become the beginning of our story. Slowly, we got to know each other,
+        shared little moments, and somehow Instagram became the place where our
+        beautiful story began.
+      </p>
+      <div class="quote">“And then, a random hello became my favorite story.”</div>
+    </section>
+
+    <section class="story section">
+      <p class="eyebrow">Our little timeline</p>
+      <h2>From Instagram to Us ♡</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="dot">♡</div>
+          <div><span>01 · The beginning</span><h3>A random Instagram moment</h3>
+          <p>We met unexpectedly on Instagram and started getting to know each other.</p></div>
+        </div>
+        <div class="timeline-item">
+          <div class="dot">♡</div>
+          <div><span>02 · Getting closer</span><h3>Our story started growing</h3>
+          <p>Little conversations became memories, and slowly you became someone very special to me.</p></div>
+        </div>
+        <div class="timeline-item special">
+          <div class="dot">♥</div>
+          <div><span>03 · My favorite moment</span><h3>Dagadusheth 💍</h3>
+          <p>You proposed to me at Dagadusheth. That moment will always have a very special place in my heart.</p></div>
+        </div>
+        <div class="timeline-item">
+          <div class="dot">♡</div>
+          <div><span>04 · Today</span><h3>Still choosing you</h3>
+          <p>And here we are, making more memories and celebrating you today.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery section">
+      <p class="eyebrow">Our memories</p>
+      <h2>Little pieces of us 📷</h2>
+      <p class="gallery-note">Replace the 8 sample files in the <b>images</b> folder with your own photos.</p>
+      <div class="photo-grid">
+        <figure><img src="images/photo1.jpg" alt="Memory 1"><figcaption>My favorite smile ♡</figcaption></figure>
+        <figure><img src="images/photo2.jpg" alt="Memory 2"><figcaption>Us, just being us</figcaption></figure>
+        <figure><img src="images/photo3.jpg" alt="Memory 3"><figcaption>A memory I want to keep</figcaption></figure>
+        <figure><img src="images/photo4.jpg" alt="Memory 4"><figcaption>One of my happy places</figcaption></figure>
+        <figure class="tall"><img src="images/photo5.jpg" alt="Memory 5"><figcaption>My person ♡</figcaption></figure>
+        <figure><img src="images/photo6.jpg" alt="Memory 6"><figcaption>Another little moment</figcaption></figure>
+        <figure><img src="images/photo7.jpg" alt="Memory 7"><figcaption>Forever a favorite</figcaption></figure>
+        <figure><img src="images/photo8.jpg" alt="Memory 8"><figcaption>More memories to come ✨</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="letter section" id="letter">
+      <div class="letter-paper">
+        <p class="eyebrow">A letter from Sakshi</p>
+        <h2>To my Aadu,</h2>
+        <p>
+          Happy Birthday to the person who became such an important part of my life
+          from the most unexpected beginning.
+        </p>
+        <p>
+          We met randomly on Instagram, but I don't think our story feels random
+          anymore. Every conversation, every laugh, every little moment brought us
+          a little closer. And then came that beautiful moment at Dagadusheth —
+          the moment you proposed to me. It is one of the memories I will always
+          carry in my heart.
+        </p>
+        <p>
+          Today, I just want you to know how special you are to me. I hope this
+          birthday brings you happiness, success, peace, and everything you wish for.
+          I hope we keep collecting silly, sweet, unforgettable memories together.
+        </p>
+        <p>
+          Thank you for being you, Aadu. And thank you for becoming a beautiful
+          chapter of my life.
+        </p>
+        <p class="signature">With all my love,<br>Sakshi ♡</p>
+      </div>
+    </section>
+
+    <section class="reasons section">
+      <p class="eyebrow">A few things</p>
+      <h2>Why you are special to me</h2>
+      <div class="reason-grid">
+        <div><span>01</span><h3>Your smile</h3><p>Because somehow it makes ordinary moments feel brighter.</p></div>
+        <div><span>02</span><h3>Our story</h3><p>Because the most unexpected beginning gave me one of my favorite stories.</p></div>
+        <div><span>03</span><h3>That proposal</h3><p>Dagadusheth will always have a little piece of my heart because of you.</p></div>
+        <div><span>04</span><h3>Just you</h3><p>Because I don't need a perfect reason. I love you for being you.</p></div>
+      </div>
+    </section>
+
+    <section class="music section">
+      <p class="eyebrow">Our song ♫</p>
+      <h2>A little music for your day</h2>
+      <p>Add your legally obtained copy of <b>Vaaroon</b> as <code>music/our-song.mp3</code>, then use the button below.</p>
+      <button onclick="toggleMusic()" id="musicButton">Play Our Song ♫</button>
+      <audio id="song" loop><source src="music/our-song.mp3" type="audio/mpeg"></audio>
+    </section>
+
+    <section class="final section">
+      <div class="gift" onclick="openGift()">🎁</div>
+      <p class="eyebrow">One last surprise</p>
+      <h2>Make a birthday wish, Aadu ✨</h2>
+      <p>Then open the little gift.</p>
+      <button onclick="openGift()">Open ♡</button>
+      <div id="secret" class="secret hidden">
+        <div class="huge-heart">♥</div>
+        <h2>My wish for you...</h2>
+        <p>May you always have reasons to smile, courage for every dream, and lots of beautiful moments ahead.</p>
+        <p class="final-love">And selfishly... I hope I get to be there for many of them. ♡</p>
+        <h3>Happy Birthday, Aadu! 🎂</h3>
+      </div>
+    </section>
+
+    <footer>Made with love by Sakshi ♡</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
